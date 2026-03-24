@@ -9,6 +9,34 @@
 <body>
   <div class="container" id="resume"></div>
   <script>
+    const renderers = {
+      text: s => `<p>${s.content}</p>`,
+      tags: s => `<div class="skills">${s.items.map(t => `<span class="tag">${t}</span>`).join('')}</div>`,
+      experience: s => s.items.map(e => `
+        <div class="entry">
+          <div class="entry-header">
+            <strong>${e.role} — ${e.company}</strong>
+            <span>${e.period}</span>
+          </div>
+          <ul>${e.highlights.map(h => `<li>${h.id ? `<a href="detail.html?id=${h.id}">${h.text}</a>` : h.text}</li>`).join('')}</ul>
+        </div>`).join(''),
+      education: s => s.items.map(e => `
+        <div class="entry">
+          <div class="entry-header">
+            <strong>${e.degree} — ${e.institution}</strong>
+            <span>${e.period}</span>
+          </div>
+        </div>`).join(''),
+      projects: s => s.items.map(p => `
+        <div class="entry">
+          <div class="entry-header">
+            <strong>${p.url ? `<a href="${p.url}">${p.name}</a>` : p.name}</strong>
+          </div>
+          <p>${p.description}</p>
+        </div>`).join(''),
+      list: s => `<ul>${s.items.map(i => `<li>${i}</li>`).join('')}</ul>`
+    };
+
     fetch('data.json').then(r => r.json()).then(d => {
       document.title = `${d.name} - Resume`;
       const c = d.contact;
@@ -25,35 +53,7 @@
             ].filter(Boolean).join('<span>|</span>')}
           </nav>
         </header>
-        <section><h2>Summary</h2><p>${d.summary}</p></section>
-        <section><h2>Experience</h2>${d.experience.map(e => `
-          <div class="entry">
-            <div class="entry-header">
-              <strong>${e.role} — ${e.company}</strong>
-              <span>${e.period}</span>
-            </div>
-            <ul>${e.highlights.map(h => `<li>${h.id ? `<a href="detail.html?id=${h.id}">${h.text}</a>` : h.text}</li>`).join('')}</ul>
-          </div>`).join('')}
-        </section>
-        <section><h2>Skills</h2>
-          <div class="skills">${d.skills.map(s => `<span class="tag">${s}</span>`).join('')}</div>
-        </section>
-        <section><h2>Education</h2>${d.education.map(e => `
-          <div class="entry">
-            <div class="entry-header">
-              <strong>${e.degree} — ${e.institution}</strong>
-              <span>${e.period}</span>
-            </div>
-          </div>`).join('')}
-        </section>
-        <section><h2>Projects</h2>${d.projects.map(p => `
-          <div class="entry">
-            <div class="entry-header">
-              <strong>${p.url ? `<a href="${p.url}">${p.name}</a>` : p.name}</strong>
-            </div>
-            <p>${p.description}</p>
-          </div>`).join('')}
-        </section>`;
+        ${d.sections.map(s => `<section><h2>${s.title}</h2>${(renderers[s.type] || renderers.text)(s)}</section>`).join('')}`;
     });
   </script>
 </body>

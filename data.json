@@ -7,41 +7,63 @@
     "linkedin": "https://linkedin.com/in/yourprofile",
     "location": "Location, Country"
   },
-  "summary": "Experienced software engineer with expertise in building scalable applications. Passionate about clean code, system design, and delivering impactful solutions.",
-  "experience": [
+  "sections": [
     {
-      "role": "Senior Software Engineer",
-      "company": "Company Name",
-      "period": "Jan 2023 – Present",
-      "highlights": [
-        { "id": "feature-dev", "text": "Led development of key features serving thousands of users" },
-        { "id": "perf-optimization", "text": "Improved system performance by optimizing critical paths" },
-        { "id": "mentoring", "text": "Mentored junior engineers and conducted code reviews" }
+      "type": "text",
+      "title": "Summary",
+      "content": "Experienced software engineer with expertise in building scalable applications. Passionate about clean code, system design, and delivering impactful solutions."
+    },
+    {
+      "type": "experience",
+      "title": "Experience",
+      "items": [
+        {
+          "role": "Senior Software Engineer",
+          "company": "Company Name",
+          "period": "Jan 2023 – Present",
+          "highlights": [
+            { "id": "feature-dev", "text": "Led development of key features serving thousands of users" },
+            { "id": "perf-optimization", "text": "Improved system performance by optimizing critical paths" },
+            { "id": "mentoring", "text": "Mentored junior engineers and conducted code reviews" }
+          ]
+        },
+        {
+          "role": "Software Engineer",
+          "company": "Previous Company",
+          "period": "Jun 2020 – Dec 2022",
+          "highlights": [
+            { "id": "api-dev", "text": "Built and maintained RESTful APIs and microservices" },
+            { "id": "cross-team", "text": "Collaborated with cross-functional teams to ship products on time" }
+          ]
+        }
       ]
     },
     {
-      "role": "Software Engineer",
-      "company": "Previous Company",
-      "period": "Jun 2020 – Dec 2022",
-      "highlights": [
-        { "id": "api-dev", "text": "Built and maintained RESTful APIs and microservices" },
-        { "id": "cross-team", "text": "Collaborated with cross-functional teams to ship products on time" }
+      "type": "tags",
+      "title": "Skills",
+      "items": ["JavaScript", "TypeScript", "Python", "React", "Node.js", "AWS", "Docker", "Git"]
+    },
+    {
+      "type": "education",
+      "title": "Education",
+      "items": [
+        {
+          "degree": "B.Tech in Computer Science",
+          "institution": "University Name",
+          "period": "2016 – 2020"
+        }
       ]
-    }
-  ],
-  "skills": ["JavaScript", "TypeScript", "Python", "React", "Node.js", "AWS", "Docker", "Git"],
-  "education": [
+    },
     {
-      "degree": "B.Tech in Computer Science",
-      "institution": "University Name",
-      "period": "2016 – 2020"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Project Name",
-      "url": "https://github.com/yourusername/project",
-      "description": "Brief description of what the project does and the technologies used."
+      "type": "projects",
+      "title": "Projects",
+      "items": [
+        {
+          "name": "Project Name",
+          "url": "https://github.com/yourusername/project",
+          "description": "Brief description of what the project does and the technologies used."
+        }
+      ]
     }
   ]
 }
