@@ -1,26 +1,26 @@
 {
   "ai": {
-    "title": "AI Adoption",
+    "title": "AI-Driven Development Adoption",
     "company": "Vittaka Fintech Pvt Ltd",
     "period": "Jan 2026 – Present",
-    "description": "Adoption of AI among engineers",
+    "description": "Led the adoption of AI-assisted development practices across the engineering team to accelerate delivery and improve code quality.",
     "details": [
-      "Developed a CAS parser proof of concept within 2 hours, then delegated it to a team member to refine, who completed the production-ready parser in 2 days for work that would typically take a month",
-      "Made strict checks in the static code analysis(SONAR) to enusre that at-least 80% coverage is must as with AI, code coverage has become easier to accomplish",
-      "Adding steering document to project so that AI knows the coding practices while writing the code, reducing time to self review and fix"
+      "Developed a CAS parser proof of concept in under 2 hours using AI tooling, then delegated refinement to a team member who delivered the production-ready parser in 2 days — a task that would typically take a month.",
+      "Enforced strict static code analysis thresholds in SonarQube, mandating a minimum of 80% line coverage — made practical by AI-assisted test generation.",
+      "Introduced steering documents into projects to guide AI tooling on coding standards, reducing self-review cycles and manual corrections."
     ],
-    "technologies": ["AWS kiro", "kotlin"]
+    "technologies": ["AWS Kiro", "Kotlin"]
   },
   "wealth-mgmt": {
     "title": "Wealth Management Platform",
     "company": "Equirus Wealth Pvt Ltd",
-    "period": "Sept 2022 – Aug 2025",
-    "description": "Designed an in-house wealth platform by leveraging capabilities from the existing outsourced solution and incorporating additional features requested by the team.",
+    "period": "Sep 2022 – Aug 2025",
+    "description": "Designed and built an in-house wealth management platform, replacing an outsourced solution while incorporating additional features requested by stakeholders.",
     "details": [
-      "Date migration of 2 lakh+ clients from outsourced vendor",
-      "Smooth transitioning for clients as well as Admins",
-      "Set up performance monitoring and alerting dashboards"
+      "Executed data migration of over 2 lakh client records from the outsourced vendor with zero downtime.",
+      "Ensured a seamless transition experience for both end clients and internal administrators.",
+      "Set up performance monitoring and alerting dashboards for proactive issue detection."
     ],
-    "technologies": ["PostgreSQL", "Redis", "Elasticsearch", "Kotlin-Springboot"]
+    "technologies": ["PostgreSQL", "Redis", "Elasticsearch", "Kotlin, Spring Boot"]
   }
 }

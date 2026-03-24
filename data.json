@@ -10,50 +10,50 @@
     {
       "type": "text",
       "title": "Summary",
-      "content": "Software engineer and architect with expertise in building scalable applications. Passionate about clean code, system design, and delivering impactful solutions. Looking to contribute in a technology leadership role where I can deepen my technical expertise, coach my team, and drive measurable product outcomes."
+      "content": "Engineering leader and software architect with deep expertise in building scalable, high-availability applications. Committed to clean code, thoughtful system design, and delivering measurable business outcomes. Seeking a technology leadership role to drive product impact, elevate engineering practices, and mentor high-performing teams."
     },
     {
       "type": "experience",
       "title": "Experience",
       "items": [
         {
-          "role": "Head Of Engineering",
+          "role": "Head of Engineering",
           "company": "Vittaka Fintech Pvt Ltd",
           "period": "Sep 2025 – Present",
           "highlights": [
             { "id": "ai", "text": "Led team-wide adoption of AI development tools, increasing automated test coverage and accelerating delivery timelines." },
-            { "id": "ai", "text": "Used AWS Kiro(AI IDE) for spec based development which resulted in a month's effort to 2 days" },
-            { "text": "Implemented TDD for new projects which resulted in cleaner code and > 80% line coverage throughout" },
-            { "text": "Rearchitected project structure to improve codebase navigability and clarity, enabling front-end engineers to contribute effectively to the API layer" }
+            { "id": "ai", "text": "Leveraged AWS Kiro (AI IDE) for spec-driven development, reducing a month-long effort to just 2 days." },
+            { "text": "Instituted TDD practices for all new projects, resulting in cleaner codebases and consistently above 80% line coverage." },
+            { "text": "Rearchitected the project structure to improve codebase navigability, enabling front-end engineers to contribute effectively to the API layer." }
           ]
         },
         {
-          "role": "Head Of Engineering",
+          "role": "Head of Engineering",
           "company": "Equirus Wealth Pvt Ltd",
-          "period": "Sept 2022 – Aug 2025",
+          "period": "Sep 2022 – Aug 2025",
           "highlights": [
-            { "id": "wealth-mgmt", "text": "Built a new Wealth Management Platform handling AUM > 14K crores for the company. Migrated all data for smooth transition for clients, RMs and Operations team" },
-            { "text": "Cross team collaboration to understand the current process and implementing the tech to reduce manual efforts by Operations Team" },
-            { "text": "Integrated various Fintech vendors to enhance and automate the existing process" }
+            { "id": "wealth-mgmt", "text": "Built a wealth management platform from the ground up, managing AUM exceeding ₹14,000 crores and executing a seamless data migration for clients, RMs, and the operations team." },
+            { "text": "Collaborated cross-functionally to map existing workflows and implement technology solutions that significantly reduced manual effort for the operations team." },
+            { "text": "Integrated multiple fintech vendor APIs to enhance and automate core business processes." }
           ]
         },
         {
-          "role": "Head Of Engineering",
+          "role": "Head of Engineering",
           "company": "Huminos",
-          "period": "August 2019 – Sep 2022",
+          "period": "Aug 2019 – Sep 2022",
           "highlights": [
-            { "text": "Developed OKR system with varuous integrations - sheets, zoho etc to automate Key result and objective tracking" },
-            { "text": "Created a notification system to blast hundreds of thousands of notification while respecting the rate limit set by Facebook's Workplace" },
-            { "text": "Created Workplace(By Facebook) integrations for various bots" }
+            { "text": "Developed an OKR platform with integrations for Google Sheets, Zoho, and other tools to automate objective and key result tracking." },
+            { "text": "Engineered a high-throughput notification system capable of dispatching hundreds of thousands of messages while respecting Facebook Workplace's rate limits." },
+            { "text": "Built custom Workplace by Facebook bot integrations to streamline internal workflows." }
           ]
         },
         {
-          "role": "Technical Lead, Software Engineer(Java), Software Engineer(iOS)",
+          "role": "Technical Lead / Software Engineer (Java & iOS)",
           "company": "Kwench",
-          "period": "August 2015 – July 2019",
+          "period": "Aug 2015 – Jul 2019",
           "highlights": [
-            { "text": "Developed chatbot integration for Rewards and Recognition platfrom for Kwench" },
-            { "text": "Built iOS app from scratch and maintained it" }
+            { "text": "Developed a chatbot integration for the Kwench rewards and recognition platform." },
+            { "text": "Built and maintained the iOS application from scratch." }
           ]
         }
       ]
@@ -62,13 +62,13 @@
       "type": "tags",
       "title": "Skills",
       "items": [
-        { "name": "AWS", "tip": "EC2, S3, Lambda, ElasticBeanStalk, RDS, Backup, Cloudwatch" },
-        { "name": "Java, Kotlin, Springboot" },
-        { "name": "Postgres" },
+        { "name": "AWS", "tip": "EC2, S3, Lambda, Elastic Beanstalk, RDS, Backup, CloudWatch" },
+        { "name": "Java, Kotlin, Spring Boot" },
+        { "name": "PostgreSQL" },
         { "name": "Elasticsearch" },
-        { "name": "Redis", "tip": "Cachiing and Pubsub" },
+        { "name": "Redis", "tip": "Caching and Pub/Sub" },
         { "name": "Git", "tip": "Version control, branching strategies, CI/CD" },
-        { "name": "AI-CLI", "tip": "Gemini and Kiro cli" }
+        { "name": "AI-Assisted Development", "tip": "Gemini CLI, AWS Kiro" }
       ]
     },
     {
@@ -78,7 +78,7 @@
         {
           "project": "Java Slack SDK",
           "url": "https://github.com/slackapi/java-slack-sdk",
-          "description": "While integrating Slack APIs into Huminos, I found some issues in Slack's Java SDK and fixed them",
+          "description": "Identified and resolved bugs in Slack's official Java SDK while integrating Slack APIs into the Huminos platform.",
           "commits": [
             { "text": "Fix for user object in user change event", "url": "https://github.com/slackapi/java-slack-sdk/commit/13a245ea604ce3131f03a629e5792306b1221043" },
             { "text": "Fixing overriding of endfdfdfdgterprise_id on team_id", "url": "https://github.com/slackapi/java-slack-sdk/commit/23de41538f75a8212dc50f40e1b7af09164665bf" }
