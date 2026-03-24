@@ -1,39 +1,57 @@
 {
   "name": "Gaurav Sharma",
-  "title": "Software Engineer",
+  "title": "Head of Engineering",
   "contact": {
-    "email": "your.email@example.com",
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "location": "Location, Country"
+    "email": "gaurav2493@gmail.com",
+    "github": "https://github.com/gaurav2493",
+    "location": "Delhi, India"
   },
   "sections": [
     {
       "type": "text",
       "title": "Summary",
-      "content": "Experienced software engineer with expertise in building scalable applications. Passionate about clean code, system design, and delivering impactful solutions."
+      "content": "Software engineer and architect with expertise in building scalable applications. Passionate about clean code, system design, and delivering impactful solutions. Looking to contribute in a technology leadership role where I can deepen my technical expertise, coach my team, and drive measurable product outcomes."
     },
     {
       "type": "experience",
       "title": "Experience",
       "items": [
         {
-          "role": "Senior Software Engineer",
-          "company": "Company Name",
-          "period": "Jan 2023 – Present",
+          "role": "Head Of Engineering",
+          "company": "Vittaka Fintech Pvt Ltd",
+          "period": "Sep 2025 – Present",
           "highlights": [
-            { "id": "feature-dev", "text": "Led development of key features serving thousands of users" },
-            { "id": "perf-optimization", "text": "Improved system performance by optimizing critical paths" },
-            { "id": "mentoring", "text": "Mentored junior engineers and conducted code reviews" }
+            { "text": "Used AI to create a project for parsing CAS. 1 month effort was reduced to 2 days" },
+            { "text": "Implemented TDD for new projects which resulted in cleaner code and > 80% line coverage throughout" }
           ]
         },
         {
-          "role": "Software Engineer",
-          "company": "Previous Company",
-          "period": "Jun 2020 – Dec 2022",
+          "role": "Head Of Engineering",
+          "company": "Equirus Wealth Pvt Ltd",
+          "period": "Sept 2022 – Aug 2025",
           "highlights": [
-            { "id": "api-dev", "text": "Built and maintained RESTful APIs and microservices" },
-            { "id": "cross-team", "text": "Collaborated with cross-functional teams to ship products on time" }
+            { "id": "wealth-mgmt", "text": "Built a new Wealth Management Platform handling AUM > 14K crores for the company. Migrated all data for smooth transition for clients, RMs and Operations team" },
+            { "id": "cross-team", "text": "Cross team collaboration to understand the current process and implementing the tech to reduce manual efforts by Operations Team" },
+            { "id": "vendors", "text": "Integrated various Fintech vendors to enhance and automate the existing process" }
+          ]
+        },
+        {
+          "role": "Head Of Engineering",
+          "company": "Huminos",
+          "period": "August 2019 – Sep 2022",
+          "highlights": [
+            { "text": "Developed OKR system with varuous integrations - sheets, zoho etc to automate Key result and objective tracking" },
+            { "text": "Created a notification system to blast hundreds of thousands of notification while respecting the rate limit set by Facebook's Workplace" },
+            { "text": "Created Workplace(By Facebook) integrations for various bots" }
+          ]
+        },
+        {
+          "role": "Technical Lead, Software Engineer(Java), Software Engineer(iOS)",
+          "company": "Kwench",
+          "period": "August 2015 – July 2019",
+          "highlights": [
+            { "text": "Developed chatbot integration for Rewards and Recognition platfrom for Kwench" },
+            { "text": "Built iOS app from scratch and maintained it" }
           ]
         }
       ]
@@ -42,35 +60,23 @@
       "type": "tags",
       "title": "Skills",
       "items": [
-        { "name": "JavaScript", "tip": "ES6+, async/await, DOM APIs" },
-        { "name": "TypeScript", "tip": "Type-safe development with interfaces and generics" },
-        { "name": "Python", "tip": "Scripting, automation, and backend services" },
-        { "name": "React", "tip": "Component-based UI development with hooks" },
-        { "name": "Node.js", "tip": "Server-side JavaScript runtime" },
-        { "name": "AWS", "tip": "EC2, S3, Lambda, CloudFormation" },
-        { "name": "Docker", "tip": "Containerization and multi-stage builds" },
-        { "name": "Git", "tip": "Version control, branching strategies, CI/CD" }
-      ]
-    },
-    {
-      "type": "education",
-      "title": "Education",
-      "items": [
-        {
-          "degree": "B.Tech in Computer Science",
-          "institution": "University Name",
-          "period": "2016 – 2020"
-        }
+        { "name": "AWS", "tip": "EC2, S3, Lambda, ElasticBeanStalk, RDS, Backup, Cloudwatch" },
+        { "name": "Java, Kotlin, Springboot" },
+        { "name": "Postgres" },
+        { "name": "Elasticsearch" },
+        { "name": "Redis", "tip": "Cachiing and Pubsub" },
+        { "name": "Git", "tip": "Version control, branching strategies, CI/CD" },
+        { "name": "AI-CLI", "tip": "Gemini and Kiro cli" }
       ]
     },
     {
       "type": "projects",
-      "title": "Projects",
+      "title": "Open Source Contributions",
       "items": [
         {
-          "name": "Project Name",
-          "url": "https://github.com/yourusername/project",
-          "description": "Brief description of what the project does and the technologies used."
+          "degree": "B.Tech in Information Technologu",
+          "institution": "JSS Academy of Technical Education, Noida",
+          "period": "2011 – 2015"
         }
       ]
     }
