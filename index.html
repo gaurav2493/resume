@@ -54,6 +54,7 @@
           <p class="subtitle">${d.title}</p>
           <nav class="contact">
             ${[
+              c.phone ? `<a href="tel:${c.phone}">${c.phone}</a>` : '',
               c.email ? `<a href="mailto:${c.email}">${c.email}</a>` : '',
               c.github ? `<a href="${c.github}">GitHub</a>` : '',
               c.linkedin ? `<a href="${c.linkedin}">LinkedIn</a>` : '',
