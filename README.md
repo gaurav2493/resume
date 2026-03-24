@@ -8,17 +8,21 @@ A single-page resume website that renders dynamically from a JSON data file. No 
 
 ```
 resume/
-├── index.html   — Shell page; fetches data.json and renders all sections via template literals
-├── style.css    — All styling; responsive + print-friendly
-├── data.json    — Single source of truth for all resume content
-└── README.md    — This file
+├── index.html    — Shell page; fetches data.json and renders all sections via template literals
+├── detail.html   — Detail page; reads details.json based on ?id= query param
+├── style.css     — All styling; responsive + print-friendly
+├── data.json     — Resume content; highlights have IDs linking to detail pages
+├── details.json  — Expanded detail content for each experience highlight
+└── README.md     — This file
 ```
 
 ## Architecture
 
 - `index.html` contains zero hardcoded resume content. On load, it fetches `data.json` and injects HTML into `<div id="resume">` using JavaScript template literals.
 - `style.css` is a standalone stylesheet with no preprocessor. Uses a blue (`#2563eb`) accent color throughout.
-- `data.json` is the only file that needs editing to update resume content.
+- `detail.html` reads the `?id=` query parameter, looks up the matching entry in `details.json`, and renders the expanded view.
+- `data.json` is the file to edit for resume content. Each experience highlight has an `id` that maps to a key in `details.json`.
+- `details.json` holds expanded content for each highlight (title, description, detail bullets, technologies).
 
 ## data.json Schema
 
@@ -38,7 +42,12 @@ resume/
       "role": "string",
       "company": "string",
       "period": "string — e.g. 'Jan 2023 – Present'",
-      "highlights": ["string — one bullet point per entry"]
+      "highlights": [
+        {
+          "id": "string — unique key matching a details.json entry",
+          "text": "string — the bullet point text"
+        }
+      ]
     }
   ],
   "skills": ["string — one per tag"],

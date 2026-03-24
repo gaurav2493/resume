@@ -14,9 +14,9 @@
       "company": "Company Name",
       "period": "Jan 2023 – Present",
       "highlights": [
-        "Led development of key features serving thousands of users",
-        "Improved system performance by optimizing critical paths",
-        "Mentored junior engineers and conducted code reviews"
+        { "id": "feature-dev", "text": "Led development of key features serving thousands of users" },
+        { "id": "perf-optimization", "text": "Improved system performance by optimizing critical paths" },
+        { "id": "mentoring", "text": "Mentored junior engineers and conducted code reviews" }
       ]
     },
     {
@@ -24,8 +24,8 @@
       "company": "Previous Company",
       "period": "Jun 2020 – Dec 2022",
       "highlights": [
-        "Built and maintained RESTful APIs and microservices",
-        "Collaborated with cross-functional teams to ship products on time"
+        { "id": "api-dev", "text": "Built and maintained RESTful APIs and microservices" },
+        { "id": "cross-team", "text": "Collaborated with cross-functional teams to ship products on time" }
       ]
     }
   ],

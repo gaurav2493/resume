@@ -30,7 +30,7 @@
               <strong>${e.role} — ${e.company}</strong>
               <span>${e.period}</span>
             </div>
-            <ul>${e.highlights.map(h => `<li>${h}</li>`).join('')}</ul>
+            <ul>${e.highlights.map(h => `<li><a href="detail.html?id=${h.id}">${h.text}</a></li>`).join('')}</ul>
           </div>`).join('')}
         </section>
         <section><h2>Skills</h2>

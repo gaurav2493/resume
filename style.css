@@ -81,6 +81,19 @@ li { margin-bottom: 0.2rem; }
   font-size: 0.85rem;
 }
 
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { text-decoration: underline; }
+
+ul a { color: #2563eb; text-decoration: none; }
+ul a:hover { text-decoration: underline; }
+
 @media print {
   body { background: #fff; }
   .container { box-shadow: none; margin: 0; padding: 1.5rem; }
