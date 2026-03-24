@@ -73,6 +73,17 @@
       ]
     },
     {
+      "type": "education",
+      "title": "Education",
+      "items": [
+        {
+          "degree": "B.Tech in Information Technology",
+          "institution": "JSS Academy of Technical Education, Noida",
+          "period": "2011 – 2015"
+        }
+      ]
+    },
+    {
       "type": "contributions",
       "title": "Open Source Contributions",
       "items": [
