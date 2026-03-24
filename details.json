@@ -5,12 +5,11 @@
     "period": "Jan 2026 – Present",
     "description": "Adoption of AI among engineers",
     "details": [
-      "Tested various models for capability with the current project",
-      "Created a CAS parser as a POC which was delivered in 2 hours. Handed over the task to perfect the CAS parser and it took 2 days which would have taken a month.",
-      "Made strict checks in the static code analysis to enusre that at-least 80% coverage is must as with AI, code coverage has become easier to accomplish",
+      "Developed a CAS parser proof of concept within 2 hours, then delegated it to a team member to refine, who completed the production-ready parser in 2 days for work that would typically take a month",
+      "Made strict checks in the static code analysis(SONAR) to enusre that at-least 80% coverage is must as with AI, code coverage has become easier to accomplish",
       "Adding steering document to project so that AI knows the coding practices while writing the code, reducing time to self review and fix"
     ],
-    "technologies": ["AWS kiro", "kotlin", "PostgreSQL"]
+    "technologies": ["AWS kiro", "kotlin"]
   },
   "wealth-mgmt": {
     "title": "Wealth Management Platform",
