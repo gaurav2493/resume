@@ -34,7 +34,15 @@
           </div>
           <p>${p.description}</p>
         </div>`).join(''),
-      list: s => `<ul>${s.items.map(i => `<li>${i}</li>`).join('')}</ul>`
+      list: s => `<ul>${s.items.map(i => `<li>${i}</li>`).join('')}</ul>`,
+      contributions: s => s.items.map(c => `
+        <div class="entry">
+          <div class="entry-header">
+            <strong>${c.url ? `<a href="${c.url}">${c.project}</a>` : c.project}</strong>
+          </div>
+          <p>${c.description}</p>
+          <ul>${c.commits.map(cm => `<li>${cm.url ? `<a href="${cm.url}">${cm.text}</a>` : cm.text}</li>`).join('')}</ul>
+        </div>`).join('')
     };
 
     fetch('data.json').then(r => r.json()).then(d => {

@@ -70,13 +70,17 @@
       ]
     },
     {
-      "type": "projects",
+      "type": "contributions",
       "title": "Open Source Contributions",
       "items": [
         {
-          "degree": "B.Tech in Information Technologu",
-          "institution": "JSS Academy of Technical Education, Noida",
-          "period": "2011 – 2015"
+          "project": "Java Slack SDK",
+          "url": "https://github.com/slackapi/java-slack-sdk",
+          "description": "While integrating Slack APIs into Huminos, I found some issues in Slack's Java SDK and fixed them",
+          "commits": [
+            { "text": "Fix for user object in user change event", "url": "https://github.com/slackapi/java-slack-sdk/commit/13a245ea604ce3131f03a629e5792306b1221043" },
+            { "text": "Fixing overriding of enterprise_id on team_id", "url": "https://github.com/slackapi/java-slack-sdk/commit/23de41538f75a8212dc50f40e1b7af09164665bf" }
+          ]
         }
       ]
     }
