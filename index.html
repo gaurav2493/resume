@@ -17,10 +17,12 @@
           <h1>${d.name}</h1>
           <p class="subtitle">${d.title}</p>
           <nav class="contact">
-            <a href="mailto:${c.email}">${c.email}</a><span>|</span>
-            <a href="${c.github}">GitHub</a><span>|</span>
-            <a href="${c.linkedin}">LinkedIn</a><span>|</span>
-            <span>${c.location}</span>
+            ${[
+              c.email ? `<a href="mailto:${c.email}">${c.email}</a>` : '',
+              c.github ? `<a href="${c.github}">GitHub</a>` : '',
+              c.linkedin ? `<a href="${c.linkedin}">LinkedIn</a>` : '',
+              c.location ? `<span>${c.location}</span>` : ''
+            ].filter(Boolean).join('<span>|</span>')}
           </nav>
         </header>
         <section><h2>Summary</h2><p>${d.summary}</p></section>
