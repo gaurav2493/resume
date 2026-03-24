@@ -93,7 +93,7 @@
           "description": "Identified and resolved bugs in Slack's official Java SDK while integrating Slack APIs into the Huminos platform.",
           "commits": [
             { "text": "Fix for user object in user change event", "url": "https://github.com/slackapi/java-slack-sdk/commit/13a245ea604ce3131f03a629e5792306b1221043" },
-            { "text": "Fixing overriding of endfdfdfdgterprise_id on team_id", "url": "https://github.com/slackapi/java-slack-sdk/commit/23de41538f75a8212dc50f40e1b7af09164665bf" }
+            { "text": "Fixing overriding of enterprise_id on team_id", "url": "https://github.com/slackapi/java-slack-sdk/commit/23de41538f75a8212dc50f40e1b7af09164665bf" }
           ]
         }
       ]
