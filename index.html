@@ -11,7 +11,7 @@
   <script>
     const renderers = {
       text: s => `<p>${s.content}</p>`,
-      tags: s => `<div class="skills">${s.items.map(t => `<span class="tag">${t}</span>`).join('')}</div>`,
+      tags: s => `<div class="skills">${s.items.map(t => typeof t === 'string' ? `<span class="tag">${t}</span>` : `<span class="tag${t.tip ? ' tooltip" data-tip="' + t.tip : ''}">${t.name}</span>`).join('')}</div>`,
       experience: s => s.items.map(e => `
         <div class="entry">
           <div class="entry-header">

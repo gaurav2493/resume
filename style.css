@@ -81,6 +81,33 @@ li { margin-bottom: 0.2rem; }
   font-size: 0.85rem;
 }
 
+.tooltip {
+  position: relative;
+  cursor: default;
+}
+
+.tooltip::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  color: #fff;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  margin-bottom: 6px;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 1rem;

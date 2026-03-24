@@ -41,7 +41,16 @@
     {
       "type": "tags",
       "title": "Skills",
-      "items": ["JavaScript", "TypeScript", "Python", "React", "Node.js", "AWS", "Docker", "Git"]
+      "items": [
+        { "name": "JavaScript", "tip": "ES6+, async/await, DOM APIs" },
+        { "name": "TypeScript", "tip": "Type-safe development with interfaces and generics" },
+        { "name": "Python", "tip": "Scripting, automation, and backend services" },
+        { "name": "React", "tip": "Component-based UI development with hooks" },
+        { "name": "Node.js", "tip": "Server-side JavaScript runtime" },
+        { "name": "AWS", "tip": "EC2, S3, Lambda, CloudFormation" },
+        { "name": "Docker", "tip": "Containerization and multi-stage builds" },
+        { "name": "Git", "tip": "Version control, branching strategies, CI/CD" }
+      ]
     },
     {
       "type": "education",
