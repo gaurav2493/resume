@@ -10,7 +10,7 @@
     {
       "type": "text",
       "title": "Summary",
-      "content": "Engineering leader and software architect with deep expertise in building scalable, high-availability applications. Committed to clean code, thoughtful system design, and delivering measurable business outcomes. Seeking a technology leadership role to drive product impact, elevate engineering practices, and mentor high-performing teams."
+      "content": "Engineering leader and software architect with experience in building scalable, high-availability applications. Committed to clean code, thoughtful system design, and delivering measurable business outcomes. Seeking a technology leadership role to drive product impact, elevate engineering practices, and mentor high-performing teams."
     },
     {
       "type": "experience",
@@ -24,7 +24,7 @@
             { "id": "ai", "text": "Led team-wide adoption of AI development tools, increasing automated test coverage and accelerating delivery timelines." },
             { "id": "ai", "text": "Leveraged AWS Kiro (AI IDE) for spec-driven development, reducing a month-long effort to just 2 days." },
             { "text": "Instituted TDD practices for all new projects, resulting in cleaner codebases and consistently above 80% line coverage." },
-            { "text": "Rearchitected the project structure to improve codebase navigability, enabling front-end engineers to contribute effectively to the API layer." }
+            { "text": "Rearchitected the project structure to improve codebase navigability, enabling front-end engineers to contribute effectively to the API layer and become a full stack engineer." }
           ]
         },
         {
