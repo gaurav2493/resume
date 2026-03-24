@@ -1,62 +1,27 @@
 {
-  "feature-dev": {
-    "title": "Led Development of Key Features",
-    "company": "Company Name",
-    "period": "Jan 2023 – Present",
-    "description": "Spearheaded the design and implementation of customer-facing features that scaled to serve thousands of daily active users.",
+  "ai": {
+    "title": "AI Adoption",
+    "company": "Vittaka Fintech Pvt Ltd",
+    "period": "Jan 2026 – Present",
+    "description": "Adoption of AI among engineers",
     "details": [
-      "Architected a real-time notification system reducing user response time by 40%",
-      "Designed and built a dashboard used by 5,000+ users daily",
-      "Drove adoption of feature flags for safer, incremental rollouts"
+      "Tested various models for capability with the current project",
+      "Created a CAS parser as a POC which was delivered in 2 hours. Handed over the task to perfect the CAS parser and it took 2 days which would have taken a month.",
+      "Made strict checks in the static code analysis to enusre that at-least 80% coverage is must as with AI, code coverage has become easier to accomplish",
+      "Adding steering document to project so that AI knows the coding practices while writing the code, reducing time to self review and fix"
     ],
-    "technologies": ["React", "Node.js", "PostgreSQL", "Redis"]
+    "technologies": ["AWS kiro", "kotlin", "PostgreSQL"]
   },
-  "perf-optimization": {
-    "title": "System Performance Optimization",
-    "company": "Company Name",
-    "period": "Jan 2023 – Present",
-    "description": "Identified and resolved critical performance bottlenecks across the application stack.",
+  "wealth-mgmt": {
+    "title": "Wealth Management Platform",
+    "company": "Equirus Wealth Pvt Ltd",
+    "period": "Sept 2022 – Aug 2025",
+    "description": "Designed an in-house wealth platform by leveraging capabilities from the existing outsourced solution and incorporating additional features requested by the team.",
     "details": [
-      "Reduced API response times by 60% through query optimization and caching",
-      "Implemented database indexing strategies that cut read latency in half",
+      "Date migration of 2 lakh+ clients from outsourced vendor",
+      "Smooth transitioning for clients as well as Admins",
       "Set up performance monitoring and alerting dashboards"
     ],
-    "technologies": ["PostgreSQL", "Redis", "Datadog", "Node.js"]
-  },
-  "mentoring": {
-    "title": "Engineering Mentorship & Code Quality",
-    "company": "Company Name",
-    "period": "Jan 2023 – Present",
-    "description": "Established code review practices and mentored junior engineers to improve team velocity and code quality.",
-    "details": [
-      "Mentored 3 junior engineers through structured 1:1 sessions",
-      "Introduced PR review guidelines adopted across the engineering org",
-      "Led weekly knowledge-sharing sessions on system design topics"
-    ],
-    "technologies": ["Git", "GitHub Actions", "ESLint"]
-  },
-  "api-dev": {
-    "title": "RESTful API & Microservices Development",
-    "company": "Previous Company",
-    "period": "Jun 2020 – Dec 2022",
-    "description": "Designed, built, and maintained a suite of RESTful APIs powering the core product.",
-    "details": [
-      "Built 12+ microservices handling authentication, payments, and notifications",
-      "Wrote comprehensive API documentation using OpenAPI/Swagger",
-      "Achieved 99.9% uptime through robust error handling and circuit breakers"
-    ],
-    "technologies": ["Node.js", "Express", "MongoDB", "Docker", "AWS"]
-  },
-  "cross-team": {
-    "title": "Cross-Functional Product Delivery",
-    "company": "Previous Company",
-    "period": "Jun 2020 – Dec 2022",
-    "description": "Worked closely with product, design, and QA teams to deliver features on schedule.",
-    "details": [
-      "Participated in sprint planning and backlog grooming with product managers",
-      "Translated design mockups into pixel-perfect, accessible UI components",
-      "Reduced release cycle time by 30% through CI/CD pipeline improvements"
-    ],
-    "technologies": ["Jira", "Figma", "GitHub Actions", "Jest"]
+    "technologies": ["PostgreSQL", "Redis", "Elasticsearch", "Kotlin-Springboot"]
   }
 }

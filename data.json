@@ -21,8 +21,10 @@
           "company": "Vittaka Fintech Pvt Ltd",
           "period": "Sep 2025 – Present",
           "highlights": [
-            { "text": "Used AI to create a project for parsing CAS. 1 month effort was reduced to 2 days" },
-            { "text": "Implemented TDD for new projects which resulted in cleaner code and > 80% line coverage throughout" }
+            { "id": "ai", "text": "Led team-wide adoption of AI development tools, increasing automated test coverage and accelerating delivery timelines." },
+            { "id": "ai", "text": "Used AWS Kiro(AI IDE) for spec based development which resulted in a month's effort to 2 days" },
+            { "text": "Implemented TDD for new projects which resulted in cleaner code and > 80% line coverage throughout" },
+            { "text": "Rearchitected project structure to improve codebase navigability and clarity, enabling front-end engineers to contribute effectively to the API layer" }
           ]
         },
         {
@@ -31,8 +33,8 @@
           "period": "Sept 2022 – Aug 2025",
           "highlights": [
             { "id": "wealth-mgmt", "text": "Built a new Wealth Management Platform handling AUM > 14K crores for the company. Migrated all data for smooth transition for clients, RMs and Operations team" },
-            { "id": "cross-team", "text": "Cross team collaboration to understand the current process and implementing the tech to reduce manual efforts by Operations Team" },
-            { "id": "vendors", "text": "Integrated various Fintech vendors to enhance and automate the existing process" }
+            { "text": "Cross team collaboration to understand the current process and implementing the tech to reduce manual efforts by Operations Team" },
+            { "text": "Integrated various Fintech vendors to enhance and automate the existing process" }
           ]
         },
         {
@@ -79,7 +81,7 @@
           "description": "While integrating Slack APIs into Huminos, I found some issues in Slack's Java SDK and fixed them",
           "commits": [
             { "text": "Fix for user object in user change event", "url": "https://github.com/slackapi/java-slack-sdk/commit/13a245ea604ce3131f03a629e5792306b1221043" },
-            { "text": "Fixing overriding of enterprise_id on team_id", "url": "https://github.com/slackapi/java-slack-sdk/commit/23de41538f75a8212dc50f40e1b7af09164665bf" }
+            { "text": "Fixing overriding of endfdfdfdgterprise_id on team_id", "url": "https://github.com/slackapi/java-slack-sdk/commit/23de41538f75a8212dc50f40e1b7af09164665bf" }
           ]
         }
       ]
