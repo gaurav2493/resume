@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Sharma - Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="resume"></div>
+  <script>
+    fetch('data.json').then(r => r.json()).then(d => {
+      document.title = `${d.name} - Resume`;
+      const c = d.contact;
+      document.getElementById('resume').innerHTML = `
+        <header>
+          <h1>${d.name}</h1>
+          <p class="subtitle">${d.title}</p>
+          <nav class="contact">
+            <a href="mailto:${c.email}">${c.email}</a><span>|</span>
+            <a href="${c.github}">GitHub</a><span>|</span>
+            <a href="${c.linkedin}">LinkedIn</a><span>|</span>
+            <span>${c.location}</span>
+          </nav>
+        </header>
+        <section><h2>Summary</h2><p>${d.summary}</p></section>
+        <section><h2>Experience</h2>${d.experience.map(e => `
+          <div class="entry">
+            <div class="entry-header">
+              <strong>${e.role} — ${e.company}</strong>
+              <span>${e.period}</span>
+            </div>
+            <ul>${e.highlights.map(h => `<li>${h}</li>`).join('')}</ul>
+          </div>`).join('')}
+        </section>
+        <section><h2>Skills</h2>
+          <div class="skills">${d.skills.map(s => `<span class="tag">${s}</span>`).join('')}</div>
+        </section>
+        <section><h2>Education</h2>${d.education.map(e => `
+          <div class="entry">
+            <div class="entry-header">
+              <strong>${e.degree} — ${e.institution}</strong>
+              <span>${e.period}</span>
+            </div>
+          </div>`).join('')}
+        </section>
+        <section><h2>Projects</h2>${d.projects.map(p => `
+          <div class="entry">
+            <div class="entry-header">
+              <strong><a href="${p.url}">${p.name}</a></strong>
+            </div>
+            <p>${p.description}</p>
+          </div>`).join('')}
+        </section>`;
+    });
+  </script>
+</body>
+</html>

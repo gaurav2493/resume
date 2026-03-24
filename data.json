@@ -1,0 +1,47 @@
+{
+  "name": "Gaurav Sharma",
+  "title": "Software Engineer",
+  "contact": {
+    "email": "your.email@example.com",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "location": "Location, Country"
+  },
+  "summary": "Experienced software engineer with expertise in building scalable applications. Passionate about clean code, system design, and delivering impactful solutions.",
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Company Name",
+      "period": "Jan 2023 – Present",
+      "highlights": [
+        "Led development of key features serving thousands of users",
+        "Improved system performance by optimizing critical paths",
+        "Mentored junior engineers and conducted code reviews"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Previous Company",
+      "period": "Jun 2020 – Dec 2022",
+      "highlights": [
+        "Built and maintained RESTful APIs and microservices",
+        "Collaborated with cross-functional teams to ship products on time"
+      ]
+    }
+  ],
+  "skills": ["JavaScript", "TypeScript", "Python", "React", "Node.js", "AWS", "Docker", "Git"],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "University Name",
+      "period": "2016 – 2020"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "url": "https://github.com/yourusername/project",
+      "description": "Brief description of what the project does and the technologies used."
+    }
+  ]
+}
