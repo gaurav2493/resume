@@ -18,6 +18,7 @@ body {
   padding: 3rem;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  position: relative;
 }
 
 header {
@@ -121,7 +122,23 @@ li { margin-bottom: 0.2rem; }
 ul a { color: #2563eb; text-decoration: none; }
 ul a:hover { text-decoration: underline; }
 
+.pdf-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.pdf-btn:hover { background: #1d4ed8; }
+
 @media print {
+  .pdf-btn { display: none; }
   body { background: #fff; }
   .container { box-shadow: none; margin: 0; padding: 1.5rem; }
 }
