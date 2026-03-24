@@ -54,7 +54,9 @@
           </nav>
         </header>
         ${d.sections.map(s => `<section><h2>${s.title}</h2>${(renderers[s.type] || renderers.text)(s)}</section>`).join('')}`;
+      window.scrollTo(0, sessionStorage.getItem('scrollY') || 0);
     });
+    window.addEventListener('beforeunload', () => sessionStorage.setItem('scrollY', window.scrollY));
   </script>
 </body>
 </html>
